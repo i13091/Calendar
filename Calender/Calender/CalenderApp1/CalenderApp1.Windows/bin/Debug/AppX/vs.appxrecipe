@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TACHI-WIN10</Machine>
+    <WindowsUser>tachi</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>696477c9-be54-4f23-b344-b2f9dfb36b10</PackageIdentityName>
+    <PackageIdentityPublisher>CN=i12108</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>CB871ED8CD45E4F4C40DC8923FA25B0D61A4952971E19102CD9CBB68BFBE7A60</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>696477c9-be54-4f23-b344-b2f9dfb36b10_1.0.0.0_neutral__afbrb80v8gr4y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>696477c9-be54-4f23-b344-b2f9dfb36b10_afbrb80v8gr4y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>696477c9-be54-4f23-b344-b2f9dfb36b10</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=i12108</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-20T06:06:16.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\CalenderApp1.Windows.exe">
+      <PackagePath>CalenderApp1.Windows.exe</PackagePath>
+      <Modified>2016-11-14T13:55:24.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\packages\Coding4Fun.Toolkit.Controls.2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls.dll">
+      <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
+      <Modified>2016-05-12T06:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\packages\Coding4Fun.Toolkit.Controls.2.1.8\lib\netcore451\Coding4Fun.Toolkit.dll">
+      <PackagePath>Coding4Fun.Toolkit.dll</PackagePath>
+      <Modified>2016-05-12T06:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\packages\Coding4Fun.Toolkit.Storage.2.0.8\lib\netcore451\Coding4Fun.Toolkit.Storage.dll">
+      <PackagePath>Coding4Fun.Toolkit.Storage.dll</PackagePath>
+      <Modified>2014-11-17T07:29:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\ReadMe.Coding4Fun.Toolkit.txt">
+      <PackagePath>ReadMe.Coding4Fun.Toolkit.txt</PackagePath>
+      <Modified>2016-08-25T04:41:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\CalenderApp1.Windows.xr.xml">
+      <PackagePath>CalenderApp1.Windows.xr.xml</PackagePath>
+      <Modified>2016-11-14T13:55:24.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-20T06:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\TextBoxinput.xbf">
+      <PackagePath>TextBoxinput.xbf</PackagePath>
+      <Modified>2016-11-14T13:55:24.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-10-21T01:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\ThicknessSettingDialog.xbf">
+      <PackagePath>ThicknessSettingDialog.xbf</PackagePath>
+      <Modified>2016-10-20T06:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\packages\Coding4Fun.Toolkit.Controls.2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</PackagePath>
+      <Modified>2016-05-12T06:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\packages\Coding4Fun.Toolkit.Controls.2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Themes\Generic.xbf">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2016-05-12T06:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Calender\Calender\Calender\CalenderApp1\CalenderApp1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-11T09:59:26.272</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

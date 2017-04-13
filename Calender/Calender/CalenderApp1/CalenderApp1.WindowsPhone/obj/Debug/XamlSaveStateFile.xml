@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\naito\calender\calenderapp1\calenderapp1.windowsphone\obj\debug\intermediatexaml\calenderapp1.windowsphone.exe" HashGuid="db2ca22c-ecb6-3418-dca8-e2ac29776ea0" />
+    <ReferenceAssembly PathName="d:\calender\calender\calender\packages\coding4fun.toolkit.controls.2.1.8\lib\wpa81\coding4fun.toolkit.controls.dll" HashGuid="59d41119-b0fc-e517-99f8-ac3c6de0d72e" />
+    <ReferenceAssembly PathName="d:\calender\calender\calender\packages\coding4fun.toolkit.controls.2.1.8\lib\wpa81\coding4fun.toolkit.dll" HashGuid="119685b3-f018-829b-095c-510e7d2a3a28" />
+    <ReferenceAssembly PathName="d:\calender\calender\calender\packages\coding4fun.toolkit.storage.2.0.8\lib\wpa81\coding4fun.toolkit.storage.dll" HashGuid="10e1cfdd-97fb-256e-c050-81891682f11a" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

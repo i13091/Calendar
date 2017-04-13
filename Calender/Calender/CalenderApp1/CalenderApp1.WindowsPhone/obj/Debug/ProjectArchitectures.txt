@@ -1,0 +1,1 @@
+D:\naito\Calender\CalenderApp1\CalenderApp1.WindowsPhone\CalenderApp1.WindowsPhone.csproj;neutral

@@ -1,0 +1,29 @@
+﻿<UserControl
+    x:Class="CalenderApp1.TextBoxinput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalenderApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c4f="using:Coding4Fun.Toolkit.Controls" 
+    mc:Ignorable="d"
+    d:DesignHeight="400"
+    d:DesignWidth="600">
+
+    <!--  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"> -->
+    <Grid>
+        <!-- 上pp.207-213参照  
+        <Thumb ManipulationDelta="OnThumbManipulationDelta"
+               Margin="0 0 0 0" Opacity="0"/>
+-->
+        <StackPanel Background="White" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0">
+            <TextBox x:ConnectionId='2' x:Name="txtboxedit" Text="abcdefg" FontSize="40"                               Visibility="Collapsed"/>
+            <c4f:ColorHexagonPicker x:ConnectionId='3' x:Name="TextColorHexagonPicker" GreyScaleSteps="20" Color="{Binding SelectedColor}" Width="250" Height="250"
+                                    ColorSize="18"
+                                                                       Visibility="Collapsed"/>
+            <!-- パラメータColorSize & ColorChangedの参考URL：http://www.geekchamp.com/articles/coding4fun-wp7-colorhexagonpicker-in-depth-->
+        </StackPanel>
+        <TextBlock x:ConnectionId='1' x:Name="txtbox" Text="abcdefg"                                              FontSize="40"                                  />
+    </Grid>
+</UserControl>
+

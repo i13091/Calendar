@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="CalenderApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalenderApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!--  <UserControl Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="758" Margin="-15,10,-11,0" VerticalAlignment="Top" Width="1392" xmlns:c4f="using:Coding4Fun.Toolkit.Controls">
+-->
+    <!-- リソースでMenuFlyoutを定義するパターンで使用する : 追加-2016/09/06 描画(FingerPaint3)のため, 削除コマンドのみ実装-->
+    <Page.Resources>
+        <MenuFlyout x:Key="popupMenu" Placement="Full">
+            <MenuFlyoutItem x:Name="menuDelete" Text="削除" />
+        </MenuFlyout>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.489,0.501">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:ConnectionId='1' x:Name="paintBtn" Content="ペイント&#xD;&#xA;" HorizontalAlignment="Left" Margin="16,0,0,0" VerticalAlignment="Bottom" Height="83" Width="194" Grid.Column="2" FontSize="18"                 />
+        <Button x:ConnectionId='2' Content="テキスト&#xD;&#xA;" HorizontalAlignment="Left" Margin="204,0,0,0" VerticalAlignment="Bottom" Height="83" Width="195" Grid.Column="2" FontSize="18"                />
+        <Button x:ConnectionId='3' Content="スタンプ&#xD;&#xA;" HorizontalAlignment="Left" Margin="395,685,0,0" VerticalAlignment="Bottom" Width="199" Grid.Column="2" FontFamily="Rod"                  FontSize="18" Height="83"/>
+        <Button Content="ゴミ箱&#xD;&#xA;" HorizontalAlignment="Left" Margin="856,0,0,5" VerticalAlignment="Bottom" Height="78" Width="202" Grid.Column="2" FontSize="18"/>
+        <Button Content="印刷&#xD;&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="1154,0,0,0" VerticalAlignment="Bottom" Height="83" Width="202"  FontSize="18"/>
+
+      
+        <!-- 追加-2016/09/06 描画(FingerPaint3)のため-->
+        <Grid  Name="contentGrid"
+           Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Grid.ColumnSpan="3" Margin="0,0,0,85" Opacity="1.0" >
+        </Grid>
+
+        <Canvas Name="paintCanvas" Width="1343" Height="673" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+        
+
+    </Grid>
+    <!--   </UserControl>-->
+</Page>
+
